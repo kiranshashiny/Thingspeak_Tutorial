@@ -44,7 +44,7 @@
       #include <WiFi101.h>
     #endif
     char ssid[] = "JioFiber-ahGu7";    //  your network SSID (name) 
-    char pass[] = "welcome2ibm";   // your network password
+    char pass[] = "YOUR_ROUTER_PASSWORD";   // your network password
     int status = WL_IDLE_STATUS;
     WiFiClient  client;
   #elif defined(USE_ETHERNET_SHIELD)
@@ -86,7 +86,7 @@
   **** IF YOU SHARE YOUR CODE WITH OTHERS, MAKE SURE YOU REMOVE YOUR WRITE API KEY!!
   *****************************************************************************************/
 unsigned long myChannelNumber = 843624;
-const char * myWriteAPIKey = "F1XGZ61YBBXTJUTI";
+const char * myWriteAPIKey = "YOUR_WRITEKEY";
 
 void setup() {
   
